@@ -1,0 +1,26 @@
+.accordion{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 12px 12px 12px 12px;
+    width: 40em;
+}
+
+.title:hover{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: aliceblue;
+
+}
+.title.active{
+    font-weight: bold;
+
+    background-color: transparent;
+}
+
+.content{
+    display: none;
+}
+.content.active{
+    display: flex;
+}
